@@ -1,0 +1,6 @@
+.messages {
+  background-color: rgb(86, 216, 233);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}

@@ -1,0 +1,21 @@
+.nonSelected {
+  cursor: pointer;
+  padding: 0 3px 0 3px;
+}
+
+.selected {
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+  border: solid 3px #000000;
+  border-radius: 1rem;
+  font-weight: 800;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageCount {
+  margin-right: 10px;
+}

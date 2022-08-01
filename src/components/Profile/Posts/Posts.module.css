@@ -1,0 +1,14 @@
+.img {
+  padding-top: 5px;
+  width: 50px;
+  border-radius: 30%;
+}
+
+.posts {
+  margin-left: 10px;
+
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
