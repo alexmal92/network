@@ -8,6 +8,7 @@ const state = {
   isFollowBtnFetching: [],
   isFetching: false,
 }
+
 test('total cotal counts must be 2000', () => {
   let action = setTotalCount(2000)
   let newState = usersReducer(state, action)

@@ -1,6 +1,15 @@
-.messages {
-  background-color: rgb(86, 216, 233);
+.wrapper {
   padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(86, 216, 233);
+}
+
+.img {
+  width: 50px;
+}
+
+.wrapperInner {
+  display: flex;
+  padding: 10px;
 }
